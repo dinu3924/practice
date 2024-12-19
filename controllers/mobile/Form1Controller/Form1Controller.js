@@ -5,5 +5,9 @@ define({
   
   test: function (){
     
-  }
+  },
+  
+  postShow: function(){
+  
+}
  });
