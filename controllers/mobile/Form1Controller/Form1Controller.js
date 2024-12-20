@@ -9,5 +9,9 @@ define({
   
   postShow: function(){
   
-}
+},
+  
+  testgit: function(){
+    
+  }
  });
