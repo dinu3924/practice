@@ -89,6 +89,138 @@
     "applepushfunc": "None",
     "apploadeventkey": "None",
     "applogokey": "",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "b21f9f5faa5143bda1b4bea3cc54e61b",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "a4ad950f498d4649a3f8f3163247a0ce",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "fa61569bf8934dd799997f1905d6c155",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "h4b8d5703de646d5a3cf9bdecf2a00cc",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "focusSkin": null,
+        "focusskin": null,
+        "mobile": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "f4cac58027e944248094fd3dd2830180",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "jd836869a3844b999a0a148c8766943e",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "h0ae2105cc824134a31177ffa4e1e22e",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "g3c28a28b70345ccb72d68029d36c4ca",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "osPlatform": "",
+        "osVersion": "iOS7",
+        "skin": null,
+        "tablet": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "fae7fb62043e40d7b547047953d5c1a6",
+                    "title": "Item 1",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "g19fcb0b9b30470ca67b3d91e2f36e74",
+                    "title": "Item 2",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "ib5f179bd9734ccab5b063c17406622b",
+                    "title": "Item 3",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "j2bd3f8b68154575b4cfcba088fd7b3a",
+                    "title": "Item 4",
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    }
+                }
+            ]
+        },
+        "wType": "Appmenu"
+    },
     "appnamekey": "Testforgit",
     "appointments": "false",
     "apppackagekey": "com.orgname.Testforgit",
@@ -129,7 +261,7 @@
     "cordovaModified": false,
     "createdVizVersion": "9.5.45",
     "createdgaversion": "9.5.45",
-    "currentgaversion": "9.5.45",
+    "currentgaversion": "9.5.35",
     "deeplinkkey": "None",
     "defaultZIndex": "1",
     "defaultlocalekey": "",
@@ -287,7 +419,7 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
-    "konyVizVersion": "9.5.45",
+    "konyVizVersion": "9.5.35",
     "lastmodifiedtime": "1734527159999",
     "location": "false",
     "mangoapptitlekey": ",,,,,,",
@@ -565,9 +697,11 @@
     "read_device_identifying_information": "false",
     "referenceWidth": "375",
     "registerForDeepLink": {
+        "androidwear": false,
         "desktop": false,
         "mobile": false,
-        "tablet": false
+        "tablet": false,
+        "watch": false
     },
     "remoteSystem": "false",
     "removableStorage": "false",
