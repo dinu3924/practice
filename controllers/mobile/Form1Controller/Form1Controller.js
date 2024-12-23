@@ -13,5 +13,9 @@ define({
   
   testgit: function(){
     
+  },
+  
+  featurebranch: function(){
+    voltmx.print("feature branch code");
   }
  });
